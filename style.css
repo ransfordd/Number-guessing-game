@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(218, 78%, 91%);
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgb(113, 113, 208);
+    box-shadow: 2px 2px 20px 5px rgb(131, 129, 129);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 1.5em;;
+}
+input{
+    font-size: 2em;
+    border: none;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+}
+button{
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: none;
+    background: hsl(240, 77%, 30%);
+    color: white;
+    padding: 6px 9px;
+    border-radius: 3px;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+button:hover{
+    background: hsl(240, 77%, 45%);
+    color: #ccc;
+}
+button:active{
+    background: hsl(240, 77%, 55%);
+}
+
+.restart{
+    background: hsl(0, 100%, 30%);
+}
+
+.restart:hover{
+    background: hsl(0, 100%, 45%);
+}
+.restart:active{
+    background: hsl(0, 100%, 55%);
+}
+
+p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
